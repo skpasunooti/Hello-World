@@ -3,6 +3,8 @@ package com;
 public class order {
  private String date;
  private int id;
+ private int time;
+
 
  public order() {
 	// TODO Auto-generated constructor stub
@@ -23,6 +25,5 @@ public int getId() {
 public void setId(int id) {
 	this.id = id;
 }
- 
-}
 
+}
