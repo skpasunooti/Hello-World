@@ -4,7 +4,7 @@ public class Item implements Cloneable  {
 private int id;
 private String name;
 private int price;
-private int items[] item;
+
 public Bid[] bids;
 
 public Bid[] getBids() {
